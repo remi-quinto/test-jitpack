@@ -11,11 +11,6 @@
     <application
         android:allowBackup="true" >
 
-        <activity
-            android:name=".SdkActivity"
-            android:exported="true">
-        </activity>
-
 
     </application>
 
