@@ -9,6 +9,10 @@ import android.webkit.WebChromeClient;
 public class CustomWebChromeClient extends WebChromeClient {
     private Activity activity;
 
+    /**
+     * Some Javadoc for CustomWebChromeClient
+     * @param parentActivity
+     */
     public CustomWebChromeClient(Activity parentActivity) {
         super();
         activity = parentActivity;
