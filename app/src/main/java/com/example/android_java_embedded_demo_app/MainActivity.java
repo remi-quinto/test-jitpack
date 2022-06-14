@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, SdkActivity.class);
-        intent.putExtra("roomUrl", roomUrlString);
-        startActivity(intent);
+//        Intent intent = new Intent(this, SdkActivity.class);
+//        intent.putExtra("roomUrl", roomUrlString);
+//        startActivity(intent);
 
     }
 }
