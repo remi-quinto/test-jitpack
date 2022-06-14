@@ -42,7 +42,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.remi-quinto'
                 artifactId = 'test-android-sdk'
-                version = '0.2.2'
+                version = '0.2.3'
             }
         }
     }

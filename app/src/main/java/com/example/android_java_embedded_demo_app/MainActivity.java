@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
 //    private WebView webView;
 
+    public static void testStaticMethod() {
+        ;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
