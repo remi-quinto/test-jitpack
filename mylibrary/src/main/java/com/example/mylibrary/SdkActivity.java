@@ -24,7 +24,7 @@ public class SdkActivity extends AppCompatActivity {
     public static void testStaticMethod() {
         ;
     }
-    
+
     public String roomUrlString = "" ;//https://salesdemo.whereby.com/04cb2d34-6a34-4bd1-b1da-e1f89716b56c"; // Replace by your own
     //    https://team.whereby.com/remi-quinto?needancestor
     private String roomParameters = "?needancestor&skipMediaPermissionPrompt";
