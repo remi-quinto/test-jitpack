@@ -20,4 +20,4 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.whereby.sdk.* {public *;}
+-keep class com.example.mylibrary* {public *;}
