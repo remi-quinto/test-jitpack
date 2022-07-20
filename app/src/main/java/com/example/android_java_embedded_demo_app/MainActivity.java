@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.mylibrary.PublicClass;
+import com.example.mylibrary.*;
 
 public class MainActivity extends AppCompatActivity {
 
