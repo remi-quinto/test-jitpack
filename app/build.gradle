@@ -36,9 +36,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-//    implementation project(':mylibrary')
+    implementation project(':mylibrary')
 //    implementation files('libs/test-android-sdk-0.2.12.aar') // Use local binary
 
-    implementation 'com.github.remi-quinto:test-jitpack:0.2.16'
+//    implementation 'com.github.remi-quinto:test-jitpack:0.2.17'
 //    implementation 'com.github.remi-quinto:test-jitpack-aar2:0.2.15'
 }
