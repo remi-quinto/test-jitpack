@@ -62,8 +62,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.remi-quinto'
-                artifactId = 'test-android-sdk'
-                version = '0.2.18'
+                artifactId = 'test-jitpack-aar2'
+                version = '0.2.10'
 //                artifact sourcesJar
                 artifact javadocJar
             }
