@@ -35,10 +35,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-//task sourcesJar(type: Jar) {
-//    from android.sourceSets.main.java.srcDirs
-//    classifier = 'sources'
-//}
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
 
 task javadoc(type: Javadoc) {
     failOnError  false
@@ -63,8 +63,8 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.remi-quinto'
                 artifactId = 'test-jitpack-aar2'
-                version = '0.2.21'
-//                artifact sourcesJar
+                version = '0.2.24'
+                artifact sourcesJar
                 artifact javadocJar
             }
         }
