@@ -63,7 +63,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.remi-quinto'
                 artifactId = 'test-jitpack-aar2'
-                version = '0.2.10'
+                version = '0.2.21'
 //                artifact sourcesJar
                 artifact javadocJar
             }
