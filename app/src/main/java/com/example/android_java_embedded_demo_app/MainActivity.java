@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
         PublicClass publicClass = new PublicClass();
         publicClass.publicProperty = "";
-        publicClass.publicMethod();
+//        publicClass.publicMethod();
     }
 }
